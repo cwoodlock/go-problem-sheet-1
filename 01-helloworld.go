@@ -7,6 +7,7 @@ package main
 
 import "fmt"
 
+//Main function to print hello world in japanese
 func main() {
 	fmt.Println("こんにちは世界")
 }
