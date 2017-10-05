@@ -8,5 +8,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, WORLD")
+	fmt.Println("こんにちは世界")
 }
