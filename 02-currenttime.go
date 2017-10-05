@@ -10,6 +10,8 @@ import (
 	"time"
 )
 
+//Main function
 func main() {
+	//Prints out the current time
 	fmt.Println("The time is", time.Now())
 }
