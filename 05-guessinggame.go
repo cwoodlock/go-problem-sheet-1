@@ -42,5 +42,6 @@ func main(){
     }
   }
 
+//ISSUE WITH CODE: rand.Intn(100) seems to only generate 81 and it prints lies 23 & 24 twice each loop
 
 }
