@@ -10,8 +10,7 @@ import (
     "math"
 )
 
-func z_next(z float64, x float64) float64
-{
+func z_next(z float64, x float64) float64 {
   return z - (((z * z) - x) / (2 * z))
 }
 func main() {
@@ -33,7 +32,7 @@ func main() {
   }
 
   //Finally, z is a good approzimation of the square root
-  fmt.Printf("The square root of %f is %f", x, z)
+  fmt.Printf("The square root of %f is %f \n", x, z)
 
   //Print out the math.Sqrt value
   fmt.Printf("math.Sqrt gives the value as %f: \n", math.Sqrt(x))
