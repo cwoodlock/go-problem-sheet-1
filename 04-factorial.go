@@ -13,10 +13,11 @@ func main() {
 	if num == 0 {
 		fmt.Printf("%d factorial is 1", num)
 	} else {
-		for i := 1; 1 <= num; i++ {
-			fact = fact * num
-		}
-		fmt.Println("%d factorial is: %d", num, fact)
+			for i := num; i > 0; i-- {
+				fact *= i
+			}
 	}
+
+
 
 }
