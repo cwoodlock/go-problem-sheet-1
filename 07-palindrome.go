@@ -17,5 +17,11 @@ func main(){
   middle := len(input)/2
   last := len(input) -1
 
-
+  for i := 0; i < middle; i++{
+    if input[i] != input[last-i]{
+      fmt.Printf("%s is not a Palindrome. \n", input)
+    } else {
+      fmt.Printf("%s is a Palindrome. \n", input)
+    }
+  }
 }
