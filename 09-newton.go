@@ -7,15 +7,19 @@ package main
 
 import (
     "fmt"
-    //"math"
+    "math"
 )
 
 func main() {
 
-  var x int
+  //Variable x
+  var x float64
 
+  //Prompts user to enter a number and reads it from the CLI
   fmt.Println("Please enter a number to get the square root of: \n")
-  fmt.Scanf("%d", &x)
+  fmt.Scanf("%f", &x)
 
-  fmt.Println(x)
+  //Prints the square root of user input
+  fmt.Printf("square root of your entered value equals: %f",math.Sqrt(x))
+
 }
