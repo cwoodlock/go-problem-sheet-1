@@ -17,10 +17,16 @@ func main() {
 	for i := num; i > 0; i-- {
 		fact *= i
 	}
+
+	fmt.Printf("%d factorial is: %d \n", num, fact)
+	fmt.Printf("The sum of the constituant numbers of %d is: ",fact)
+	
 	for fact > 0{
 		sum += fact % 10
 		fact /= 10
 	}
+
+	fmt.Printf("%d",sum)
 
 
 }
