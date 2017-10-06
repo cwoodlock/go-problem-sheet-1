@@ -9,5 +9,16 @@ import (
 )
 
 func main(){
+
+  //Declare variables
+  var input string
+
+  //Prompt user to enter string and read it from CLI
+  fmt.Println("Please enter a string to be reversed: ")
+  fmt.Scanf("%s \n", &input)
+
+  //Get the length of the string
+  inputLength := len(input)
+
   
 }
