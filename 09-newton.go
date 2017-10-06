@@ -10,6 +10,10 @@ import (
     "math"
 )
 
+func z_next(z float64, x float64) float64
+{
+  return z - (((z * z) - x) / (2 * z))
+}
 func main() {
 
   //Variable x
@@ -19,7 +23,19 @@ func main() {
   fmt.Println("Please enter a number to get the square root of: \n")
   fmt.Scanf("%f", &x)
 
-  //Prints the square root of user input
-  fmt.Printf("square root of your entered value equals: %f",math.Sqrt(x))
+  //the initial guess
+  z := float64(1)
+
+  //itterate until the next guess is the same as the current
+  for z = 1.0; z != z_next(z,x); z = z_next(z, x){
+    //Print the guess for each itteration
+    fmt.Printf("Current guess: %1.28f\n", z)
+  }
+
+  //Finally, z is a good approzimation of the square root
+  fmt.Printf("The square root of %f is %f", x, z)
+
+  //Print out the math.Sqrt value
+  fmt.Printf("math.Sqrt gives the value as %f: \n", math.Sqrt(x))
 
 }
