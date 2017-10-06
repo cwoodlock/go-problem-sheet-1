@@ -1,5 +1,6 @@
 //Merge exercise in Go
 //Author: Colm Woodlock
+//Student Number: G00341460
 
 //Adapted from https://stackoverflow.com/questions/16248241/concatenate-two-slices-in-go
 

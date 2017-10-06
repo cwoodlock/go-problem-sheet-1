@@ -1,5 +1,6 @@
 //Palindrome exercise in Go
 //Author: Colm Woodlock
+//Student Number: G00341460
 
 package main
 
@@ -21,7 +22,7 @@ func main(){
   last := len(input) -1
 
   //This checks to see if in the loop, the first nd last letters to see if they are not equal
-  //Print if it is or isnt a palindrome 
+  //Print if it is or isnt a palindrome
   for i := 0; i < middle; i++{
     if input[i] != input[last-i]{
       fmt.Printf("%s is not a Palindrome. \n", input)

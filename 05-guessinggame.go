@@ -1,5 +1,6 @@
 //Guessing game exercise in Go
 //Author: Colm Woodlock
+//Student Number: G00341460
 
 //Adapted from: https://gobyexample.com/random-numbers
 

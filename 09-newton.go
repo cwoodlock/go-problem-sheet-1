@@ -1,5 +1,6 @@
 //Newton exercise in Go
 //Author: Colm Woodlock
+//Student Number: G00341460
 
 //Adapted from https://tour.golang.org/flowcontrol/8 and code from lab
 

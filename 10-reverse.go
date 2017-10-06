@@ -1,6 +1,6 @@
 //Reverse string exercise in Go
 //Author: Colm Woodlock
-
+//Student Number: G00341460
 
 package main
 
@@ -20,5 +20,5 @@ func main(){
   //Get the length of the string
   inputLength := len(input)
 
-  
+
 }

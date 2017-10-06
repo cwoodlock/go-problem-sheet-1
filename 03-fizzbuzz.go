@@ -1,5 +1,6 @@
 //FizzBuzz exercise in Go
 //Author: Colm Woodlock
+//Student Number: G00341460
 
 //Adapted from http://wiki.c2.com/?FizzBuzzTest
 

@@ -1,5 +1,6 @@
 //Factorial exercise in Go
 //Author: Colm Woodlock
+//Student Number: G00341460
 
 package main
 
