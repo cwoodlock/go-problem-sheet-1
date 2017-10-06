@@ -14,7 +14,8 @@ func main(){
   fmt.Println("Please enter a string:")
   fmt.Scanf("%s \n", &input)
 
-  fmt.Println(input)
+  middle := len(input)/2
+  last := len(input) -1
 
 
 }
