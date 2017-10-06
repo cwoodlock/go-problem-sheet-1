@@ -5,7 +5,6 @@ package main
 import (
   "fmt"
   "math/rand"
-  "time"
 )
 
 func main(){
@@ -24,8 +23,16 @@ func main(){
       fmt.Printf("Correct! It took you %d times to guess the answer! \n", tries)
     } else if guess > answer {
       fmt.Printf("Your guess was too high please try again! \n")
+      if previous != guess {
+        tries++
+        previous = guess
+      }
     } else if guess < answer {
       fmt.Printf("Your guess was too low please try again! \n")
+      if previous != guess {
+        tries++
+        previous = guess
+      }
     }
   }
 
