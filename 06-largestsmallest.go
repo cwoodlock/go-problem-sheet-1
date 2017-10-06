@@ -18,6 +18,14 @@ func main() {
   min := list[0]
   max := list[0]
 
-  
+  for i := 0; i < len(list); i++ {
+    if list[i] < min {
+      min = list[i]
+    }
+    if list[i] > max {
+      max = list[i]
+    }
+  }
 
+  fmt.Printf("The min value of the list is: %d \nThe max value of the list is: %d", min, max)
 }
